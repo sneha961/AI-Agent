@@ -1,0 +1,14 @@
+{
+  "title": "South Asian Population Demographics",
+  "summary": "South Asia is one of the most populous regions in the world with a population of approximately 2.06 billion people as of 2023. The region is characterized by its young demographic profile, with nearly 900 million people under the age of 24. The region faces significant demographic challenges, particularly in terms of employment, as more than one million youth are expected to enter the labor force every month until 2030. This rapid population growth and youth bulge present both opportunities and challenges for social and economic development in the region. The area's demographic dynamics are significantly influencing various aspects of development, including labor markets, urbanization, and social services.",
+  "references": [
+    "United Nations Population Statistics",
+    "ESCAP Population Data Sheet",
+    "Demographics of Asia - Wikipedia"
+  ],
+  "tools_used": [
+    "wikipedia",
+    "DuckDuckGo_Search",
+    "save_tool"
+  ]
+}
