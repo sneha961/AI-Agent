@@ -6,9 +6,10 @@ This project implements an AI-powered research assistant using LangChain and Ant
 
 - **Query Answering**: Uses AI models to answer user queries.
 - **Tool Integration**:
-  - Wikipedia search
-  - DuckDuckGo search
-  - Save results to a file
+  - Wikipedia Tool: Retrieves information from Wikipedia.
+  - DuckDuckGo Search Tool: Performs web searches.
+  - Save Tool: Saves the generated summary or data to a file.
+
 - **Structured Output**: Generates structured responses with titles, summaries, references, and tools used.
 - **Extensible**: Easily add more tools or customize the assistant's behavior.
 
@@ -34,7 +35,8 @@ pip install -r requirements.txt
 4. Create a .env file to store your API keys
 touch .env
 
-Add API keys to your .env file
+5. Add API keys to your .env file
+   ```bash
     OPENAI_API_KEY=your_openai_api_key
     ANTHROPIC_API_KEY=your_anthropic_api_key
 
@@ -46,12 +48,8 @@ python main.py
 
 3. The assistant will process your query, use the necessary tools, and provide a structured response.
 
-## Tools 
-Wikipedia Tool: Retrieves information from Wikipedia.
-DuckDuckGo Search Tool: Performs web searches.
-Save Tool: Saves the generated summary or data to a file.
-
 ## File Structure
+```bash
 AI-Agent/
 ├── main.py               # Main script
 ├── tools.py              # Custom tools for the assistant
@@ -59,6 +57,7 @@ AI-Agent/
 ├── .env                  # API keys (not included in the repository)
 ├── README.md             # Project documentation
 └── venv/                 # Virtual environment (excluded via .gitignore)
+```
 
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
@@ -67,9 +66,9 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgements
-LangChain for the framework.
-Anthropic for the Claude model.
-OpenAI for GPT-based models.
+- LangChain for the framework.
+- Anthropic for the Claude model.
+- OpenAI for GPT-based models.
 
 
 
